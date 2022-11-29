@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Sono:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #120701;
+}
+
+.cabecalho {
+    font-family: 'Sono', sans-serif;
+    color: #047503; 
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .cabecalho-imagem {
+    width: 70px;
+  }
+  
+  .cabecalho-menu {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .cabecalho-menu-item {
+    font-family: 'Inconsolata', monospace;
+    color: #DFE0E8; 
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-around;
+  }
+  
+  .conteudo-postagem-escrito {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+    font-family: 'Inconsolata', monospace;
+    color: #DFE0E8; 
+    font-weight: 300;
+    font-size: 20px;
+    
+  }
+  
+  .conteudo-postagem-escrito-titulo {
+    font-family: 'Sono', sans-serif;
+
+    font-weight: 600;
+    font-size: 30px;
+    color: #736961
+  }
+
+  .conteudo-postagem-imagem {
+    padding: 40px;
+    border-radius: 20%;
+    width: 40%;
+  }
+
+  .conteudo-postagem-paragrafo {
+    font-family: 'Inconsolata', monospace;
+    color: #DFE0E8; 
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .conteudo {
+    border-top: 1px solid #047503;
+  }
+
+  .rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Inconsolata', monospace;
+    color: #DFE0E8; 
+    font-weight: 300;
+    font-size: 20px;
+    border-top: 1px solid #047503;
+  }
