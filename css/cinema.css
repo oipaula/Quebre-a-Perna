@@ -43,14 +43,14 @@ body {
   .conteudo {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    
     justify-content: space-around;
   }
   
   .conteudo-postagem-escrito {
     display: flex;
     flex-direction: column;
-
+    padding: 30px;
     gap: 15px;
     font-family: 'Inconsolata', monospace;
     color: #DFE0E8; 
@@ -61,14 +61,14 @@ body {
   
   .conteudo-postagem-escrito-titulo {
     font-family: 'Sono', sans-serif;
-
+    padding: 30px;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 40px;
     color: #736961
   }
 
   .conteudo-postagem-imagem {
-    padding: 40px;
+    margin-left: 30%;
     border-radius: 20%;
     width: 40%;
   }
